@@ -1,0 +1,136 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Primary Colors */
+  --paleblue: hsl(225, 100%, 94%);
+  --brightblue: hsl(245, 75%, 52%);
+  /* Neutral Colors */
+  --verypaleblue: hsl(225, 100%, 98%);
+  --desaturatedblue: hsl(224, 23%, 55%);
+  --darkblue: hsl(223, 47%, 23%);
+}
+
+body {
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1rem;
+  background: url("../images/pattern-background-mobile.svg"), var(--paleblue);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+
+.summary__card {
+  margin: 4rem auto;
+  width: 88%;
+  max-width: 950px;
+  box-shadow: 1px 6px 8px 0px #80808038;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.img__card img {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+}
+
+.card__content {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 1.2rem;
+}
+
+.card__content h2 {
+  font-weight: 900;
+}
+
+.card__content p {
+  color: var(--desaturatedblue);
+  line-height: 1.5;
+}
+
+.card_plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--verypaleblue);
+  border-radius: 10px;
+  padding: 0 .8rem;
+  margin-bottom: 1.2rem;
+}
+
+.card_plan h3 {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.card_plan h3 span {
+  color: var(--desaturatedblue);
+}
+
+.card_plan a {
+  transition: all 200ms ease-out;
+}
+
+.card_plan a:hover {
+  text-decoration: none;
+  opacity: .8;
+}
+
+.card__content button {
+  width: 100%;
+  color: #fff;
+  background-color: var(--brightblue);
+  border: 0;
+  padding: .7rem 0;
+  border-radius: 8px;
+  box-shadow: 1px 6px 8px 3px var(--paleblue);
+  margin-bottom: 1.2rem;
+  transition: all 200ms ease-in;
+}
+
+.card__content button:hover {
+  opacity: .7;
+  box-shadow: 1px 6px 8px 0px var(--darkblue);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.card__content .cancel {
+  text-decoration: none;
+  color: var(--desaturatedblue);
+  transition: all 200ms ease-in;
+}
+
+.card__content .cancel:hover {
+  color: #222;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 533px) {
+  .summary__card {
+    margin: 8rem auto;
+    max-width: 370px;
+  }
+
+  .card__content {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    background: url("../images/pattern-background-desktop.svg"), var(--paleblue);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
