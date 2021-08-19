@@ -15,8 +15,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -33,14 +31,14 @@ Users should be able to:
 This is a screenshot of the mobile look of the card.
 
 ##### Laptop Preview Screenshot
-
+![](./images/laptop_preview.png)
 
 This is the laptop preview of the card.
 
 ### Links
 
 - Solution URL: [My Soln](https://github.com/issagoodlifeInc/order-summary)
-- Live Site URL: [Live-site](https://your-live-site-url.com)
+- Live Site URL: [Live-site](https://issagoodlifeinc.github.io/order-summary/)
 
 ## My process
 
@@ -79,11 +77,13 @@ Tried using Adobe XD for perfect layout look and ended up leaving it completely.
 ### Continued development
 
 Overall speed
+
 Better class names
+
 Mobile First workflow
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Lesley Kimutai](https://leskimfamily.herokuapp.com/lesley)
 - Frontend Mentor - [Leskim](https://www.frontendmentor.io/profile/Leskim)
