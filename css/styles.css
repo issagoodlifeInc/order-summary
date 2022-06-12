@@ -42,7 +42,7 @@ body {
   padding-bottom: 1.2rem;
 }
 
-.card__content h2 {
+.card__content h1 {
   font-weight: 900;
 }
 
@@ -68,6 +68,7 @@ body {
 
 .card_plan h3 span {
   color: var(--desaturatedblue);
+  font-weight: lighter;
 }
 
 .card_plan a {
