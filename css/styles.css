@@ -61,12 +61,12 @@ body {
   margin-bottom: 1.2rem;
 }
 
-.card_plan h3 {
+.card_plan h2 {
   font-size: 1rem;
   text-align: left;
 }
 
-.card_plan h3 span {
+.card_plan h2 span {
   color: var(--desaturatedblue);
   font-weight: lighter;
 }
